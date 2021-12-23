@@ -12,7 +12,6 @@ function App() {
 
   const [user, setuser] = useState("");
   const [spinnerLoading, setSpinnerLoading] = useState(false);
-
   const getusers = () => {
     Service.getusers().then(
       (res) => {
